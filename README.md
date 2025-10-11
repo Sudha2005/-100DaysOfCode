@@ -1,4 +1,3 @@
-# -100DaysOfCode
 # 💻 100 Days of Java Challenge 🚀
 
 Welcome to my **#100DaysOfJava Challenge Repository**!  
