@@ -1,0 +1,15 @@
+import java.util.*;
+class HelloGreeting {
+    public static void main(String[] args) {
+        // This program greets the user by name and validates input.
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scan.nextLine();
+        if (name.isBlank()){
+            System.out.println("Name cannot be empty!");
+        }else{
+            System.out.println("Hello " + name + "!");
+        }
+        scan.close();
+    }
+}
