@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class SwapTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        // Read two numbers from input
+        long firstNumber = scan.nextLong();
+        long secondNumber = scan.nextLong();
+        // Swap using XOR (no temporary variable)
+        firstNumber = firstNumber ^ secondNumber;
+        secondNumber = firstNumber ^ secondNumber;
+        firstNumber = firstNumber ^ secondNumber;
+        // Print the swapped numbers (space-separated)
+        System.out.println(firstNumber + " " + secondNumber);
+        scan.close();
+    }
+}
