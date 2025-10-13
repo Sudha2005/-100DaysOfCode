@@ -35,3 +35,8 @@ Over the next 100 days, I worked consistently to improve my **Java programming s
 | 81–100 | Advanced Java, Streams, Patterns | ⚫ Expert |
 
 📂 Each day’s code is organized in its own folder:
+
+![Java](https://img.shields.io/badge/Language-Java-orange?logo=java)
+![100DaysOfCode](https://img.shields.io/badge/Challenge-100DaysOfJava-blue)
+![Status](https://img.shields.io/badge/Progress-100%25-success)
+
